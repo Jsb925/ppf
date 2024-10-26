@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/extras/extras.egg-info
+writing ../../build/extras/extras.egg-info/PKG-INFO
+writing dependency_links to ../../build/extras/extras.egg-info/dependency_links.txt
+writing entry points to ../../build/extras/extras.egg-info/entry_points.txt
+writing requirements to ../../build/extras/extras.egg-info/requires.txt
+writing top-level names to ../../build/extras/extras.egg-info/top_level.txt
+writing manifest file '../../build/extras/extras.egg-info/SOURCES.txt'
+reading manifest file '../../build/extras/extras.egg-info/SOURCES.txt'
+writing manifest file '../../build/extras/extras.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sedrica/ros2ppf_26_10/build/extras/build/lib/extras
+copying extras/direction.py -> /home/sedrica/ros2ppf_26_10/build/extras/build/lib/extras
+copying extras/convertor.py -> /home/sedrica/ros2ppf_26_10/build/extras/build/lib/extras
+copying extras/__init__.py -> /home/sedrica/ros2ppf_26_10/build/extras/build/lib/extras
+running install
+running install_lib
+creating /home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages/extras
+copying /home/sedrica/ros2ppf_26_10/build/extras/build/lib/extras/direction.py -> /home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages/extras
+copying /home/sedrica/ros2ppf_26_10/build/extras/build/lib/extras/convertor.py -> /home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages/extras
+copying /home/sedrica/ros2ppf_26_10/build/extras/build/lib/extras/__init__.py -> /home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages/extras
+byte-compiling /home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages/extras/direction.py to direction.cpython-38.pyc
+byte-compiling /home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages/extras/convertor.py to convertor.cpython-38.pyc
+byte-compiling /home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages/extras/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/sedrica/ros2ppf_26_10/install/extras/share/ament_index/resource_index/packages
+copying resource/extras -> /home/sedrica/ros2ppf_26_10/install/extras/share/ament_index/resource_index/packages
+copying package.xml -> /home/sedrica/ros2ppf_26_10/install/extras/share/extras
+running install_egg_info
+Copying ../../build/extras/extras.egg-info to /home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages/extras-0.0.0-py3.8.egg-info
+running install_scripts
+Installing convertor script to /home/sedrica/ros2ppf_26_10/install/extras/lib/extras
+Installing direction script to /home/sedrica/ros2ppf_26_10/install/extras/lib/extras
+writing list of installed files to '/home/sedrica/ros2ppf_26_10/build/extras/install.log'

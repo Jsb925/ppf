@@ -1,0 +1,2 @@
+Invoking command in '/home/sedrica/ros2ppf_26_10/build/ppf_node': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/sedrica/ros2ppf_26_10/src/ppf_node -DCMAKE_INSTALL_PREFIX=/home/sedrica/ros2ppf_26_10/install/ppf_node
+Invoked command in '/home/sedrica/ros2ppf_26_10/build/ppf_node' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/sedrica/ros2ppf_26_10/src/ppf_node -DCMAKE_INSTALL_PREFIX=/home/sedrica/ros2ppf_26_10/install/ppf_node
