@@ -45,7 +45,7 @@ class direction(Node):
         self.window_size = 10
 
         ##TODO fix this link
-        self.load_raceline_csv('/home/sedrica/ros2ppf/src/extras/track/gl_track.csv')
+        self.load_raceline_csv('gl_track.csv')
 
         # Set up the loop rate
         self.rate = self.create_rate(10)  # 10 Hz
