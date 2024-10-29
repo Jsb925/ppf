@@ -1,0 +1,8 @@
+source;share/ppf_node/hook/cmake_prefix_path.ps1
+source;share/ppf_node/hook/cmake_prefix_path.dsv
+source;share/ppf_node/hook/cmake_prefix_path.sh
+source;share/ppf_node/local_setup.bash
+source;share/ppf_node/local_setup.dsv
+source;share/ppf_node/local_setup.ps1
+source;share/ppf_node/local_setup.sh
+source;share/ppf_node/local_setup.zsh

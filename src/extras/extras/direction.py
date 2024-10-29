@@ -11,6 +11,7 @@ from math import atan2, sqrt, exp
 import tf_transformations as tf
 import pandas as pd
 import time
+import tf_transformations
 
 
 '''
@@ -29,6 +30,7 @@ class direction(Node):
         self.race_pub = self.create_publisher(MarkerArray, '/raceline', 1)
         self.arrow_pub = self.create_publisher(Marker, '/target_arrow', 1)
 
+        print("mew")
         self.max_speed = 6.0
         self.min_speed = 1.0
         self.max_lookahead = 2.0
@@ -45,7 +47,7 @@ class direction(Node):
         self.window_size = 10
 
         ##TODO fix this link
-        self.load_raceline_csv('gl_track.csv')
+        self.load_raceline_csv('/home/sedrica/ros2ppf_26_10/src/extras/extras/gl_track.csv')
 
         # Set up the loop rate
         self.rate = self.create_rate(10)  # 10 Hz
@@ -96,7 +98,9 @@ class direction(Node):
         print("triggered")
         position = msg.pose.pose.position
         orientation_n = msg.pose.pose.orientation
+        self.robot_pose = (position, orientation_n)
         heading = self.radian_correction(self.quaternion_to_yaw([orientation_n.x, orientation_n.y, orientation_n.z, orientation_n.w]) + np.pi / 2)
+        self.heading=heading
         current_speed = sqrt(msg.twist.twist.linear.x ** 2 + msg.twist.twist.linear.y ** 2)
 
         closest_point, goal_point = self.get_lookahead_point(position)
@@ -120,6 +124,28 @@ class direction(Node):
         self.get_logger().info(f"goal_car_angle: {goal_car_angle * 180 / np.pi}")
         self.get_logger().info(f"goal_angle: {goal_angle}")
         self.get_logger().info(f"car_angle: {car_angle}")
+
+
+    def transform_point(self, local_point):
+        if self.robot_pose is None:
+            self.get_logger().warning('Robot pose is not yet available.')
+            return None
+
+        # Extract position and orientation from the robot pose
+        position, orientation = self.robot_pose
+        q = [orientation.x, orientation.y, orientation.z, orientation.w]
+
+        # Convert quaternion to rotation matrix
+        rotation_matrix = tf_transformations.quaternion_matrix(q)[:3, :3]
+        translation_vector = np.array([position.x, position.y, position.z])
+
+        # Convert local point to a numpy array
+        local_point_np = np.array(local_point)
+
+        # Perform the transformation: global_point = rotation_matrix * local_point + translation_vector
+        global_point_np = np.dot(rotation_matrix, local_point_np) + translation_vector
+        return global_point_np.tolist()
+
 
     def quaternion_to_yaw(self, quaternion):
         qx, qy, qz, qw = quaternion
@@ -151,6 +177,7 @@ class direction(Node):
         #q.z=quaternion[2]
         #q.w=quaternion[3]
         q.x=-self.target_yaw
+        q.y=self.heading
 
         arrow_marker.pose.orientation=q
 
@@ -166,7 +193,7 @@ class direction(Node):
         self.arrow_pub.publish(arrow_marker)
         print(arrow_marker)
         print("mrrrr")
-
+    
     def get_lookahead_point(self, position):
         min_dist = float('inf')
         closest_point = None
@@ -206,7 +233,7 @@ class direction(Node):
         marker.color.a = 1.0
         marker.color.r = 1.0
         marker.color.g = 0.0
-        marker.color.b = 0.0
+        marker.color.b = 1.0
 
         print(marker)
         print(self.path)

@@ -11,6 +11,7 @@ setup.py
 extras/__init__.py
 extras/convertor.py
 extras/direction.py
+extras/frametf.py
 resource/extras
 test/test_copyright.py
 test/test_flake8.py
