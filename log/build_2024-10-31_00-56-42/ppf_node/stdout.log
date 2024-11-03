@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target ppf_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ppf_node.dir/src/ppfnode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ppf_node[0m
+[100%] Built target ppf_node
+-- Install configuration: ""
+-- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/lib/ppf_node/ppf_node
+-- Set runtime path of "/home/sedrica/ros2ppf_26_10/install/ppf_node/lib/ppf_node/ppf_node" to ""
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/package_run_dependencies/ppf_node
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/parent_prefix_path/ppf_node
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/path.sh
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/path.dsv
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.bash
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.sh
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.zsh
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.dsv
+-- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.dsv
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/packages/ppf_node
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/cmake/ppf_nodeConfig.cmake
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/cmake/ppf_nodeConfig-version.cmake
+-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.xml

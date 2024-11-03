@@ -1,0 +1,24 @@
+[0.267s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg -- -j20 -l20
+[0.370s] [ 50%] Built target scan_to_occ_node
+[0.395s] [100%] Built target odom_publisher_node
+[0.422s] Invoked command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg -- -j20 -l20
+[0.532s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg
+[0.550s] -- Install configuration: ""
+[0.551s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib/odom_publisher_pkg/odom_publisher_node
+[0.551s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib/odom_publisher_pkg/scan_to_occ_node
+[0.552s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/ament_index/resource_index/package_run_dependencies/odom_publisher_pkg
+[0.552s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/ament_index/resource_index/parent_prefix_path/odom_publisher_pkg
+[0.552s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/environment/ament_prefix_path.sh
+[0.553s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/environment/ament_prefix_path.dsv
+[0.553s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/environment/path.sh
+[0.553s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/environment/path.dsv
+[0.554s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/local_setup.bash
+[0.555s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/local_setup.sh
+[0.556s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/local_setup.zsh
+[0.556s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/local_setup.dsv
+[0.556s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.dsv
+[0.557s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/ament_index/resource_index/packages/odom_publisher_pkg
+[0.557s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/cmake/odom_publisher_pkgConfig.cmake
+[0.558s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/cmake/odom_publisher_pkgConfig-version.cmake
+[0.558s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.xml
+[0.579s] Invoked command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg

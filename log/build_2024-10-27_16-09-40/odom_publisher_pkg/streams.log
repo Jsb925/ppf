@@ -1,0 +1,75 @@
+[0.296s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake /home/sedrica/ros2ppf_26_10/src/odom_publisher_pkg -DCMAKE_INSTALL_PREFIX=/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg
+[0.394s] -- The C compiler identification is GNU 9.4.0
+[0.504s] -- The CXX compiler identification is GNU 9.4.0
+[0.514s] -- Check for working C compiler: /usr/bin/cc
+[0.637s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.638s] -- Detecting C compiler ABI info
+[0.772s] -- Detecting C compiler ABI info - done
+[0.800s] -- Detecting C compile features
+[0.800s] -- Detecting C compile features - done
+[0.804s] -- Check for working CXX compiler: /usr/bin/c++
+[0.961s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.962s] -- Detecting CXX compiler ABI info
+[1.087s] -- Detecting CXX compiler ABI info - done
+[1.110s] -- Detecting CXX compile features
+[1.110s] -- Detecting CXX compile features - done
+[1.113s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.141s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.141s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.372s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.420s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.616s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.663s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.808s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.809s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.810s] -- Looking for pthread.h
+[1.965s] -- Looking for pthread.h - found
+[1.965s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.125s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.125s] -- Looking for pthread_create in pthreads
+[2.260s] -- Looking for pthread_create in pthreads - not found
+[2.260s] -- Looking for pthread_create in pthread
+[2.431s] -- Looking for pthread_create in pthread - found
+[2.434s] -- Found Threads: TRUE  
+[2.596s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.627s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.692s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.757s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.151s] -- Configuring done
+[3.173s] -- Generating done
+[3.174s] -- Build files have been written to: /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg
+[3.186s] Invoked command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake /home/sedrica/ros2ppf_26_10/src/odom_publisher_pkg -DCMAKE_INSTALL_PREFIX=/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg
+[3.191s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg -- -j20 -l20
+[3.275s] [35m[1mScanning dependencies of target odom_publisher_node[0m
+[3.277s] [35m[1mScanning dependencies of target scan_to_occ_node[0m
+[3.339s] [ 25%] [32mBuilding CXX object CMakeFiles/scan_to_occ_node.dir/src/scan_to_occ_node.cpp.o[0m
+[3.340s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_publisher_node.dir/src/odom_publisher_node.cpp.o[0m
+[9.137s] [ 75%] [32m[1mLinking CXX executable scan_to_occ_node[0m
+[9.494s] [ 75%] Built target scan_to_occ_node
+[10.860s] [100%] [32m[1mLinking CXX executable odom_publisher_node[0m
+[11.311s] [100%] Built target odom_publisher_node
+[11.332s] Invoked command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg -- -j20 -l20
+[11.406s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg
+[11.425s] -- Install configuration: ""
+[11.425s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib/odom_publisher_pkg/odom_publisher_node
+[11.432s] -- Set runtime path of "/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib/odom_publisher_pkg/odom_publisher_node" to ""
+[11.432s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib/odom_publisher_pkg/scan_to_occ_node
+[11.436s] -- Set runtime path of "/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib/odom_publisher_pkg/scan_to_occ_node" to ""
+[11.436s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/ament_index/resource_index/package_run_dependencies/odom_publisher_pkg
+[11.436s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/ament_index/resource_index/parent_prefix_path/odom_publisher_pkg
+[11.437s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/environment/ament_prefix_path.sh
+[11.437s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/environment/ament_prefix_path.dsv
+[11.437s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/environment/path.sh
+[11.437s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/environment/path.dsv
+[11.437s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/local_setup.bash
+[11.438s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/local_setup.sh
+[11.438s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/local_setup.zsh
+[11.439s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/local_setup.dsv
+[11.439s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.dsv
+[11.439s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/ament_index/resource_index/packages/odom_publisher_pkg
+[11.439s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/cmake/odom_publisher_pkgConfig.cmake
+[11.439s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/cmake/odom_publisher_pkgConfig-version.cmake
+[11.439s] -- Installing: /home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.xml
+[11.443s] Invoked command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg

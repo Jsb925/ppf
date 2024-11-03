@@ -1,0 +1,52 @@
+In file included from [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10[m[K:
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kdouble calculateRepulsivePotential(const Point&, const std::vector<std::vector<int> >&)[m[K’:
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:52:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   52 |     for (int i = 0; [01;35m[Ki < grid.size()[m[K; ++i)
+      |                     [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:54:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   54 |         for (int j = 0; [01;35m[Kj < grid[0].size()[m[K; ++j)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10[m[K:
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<int> > smoothPath(const std::vector<std::vector<int> >&, std::vector<std::vector<int> >&)[m[K’:
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:145:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  145 |     for(int i=0; [01;35m[Ki<smoothedPath.size()[m[K;i++){
+      |                  [01;35m[K~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[KPoint getNextStep(const Point&, const Point&, std::vector<std::vector<int> >&)[m[K’:
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:178:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  178 |         if (neighbor.x >= 0 && [01;35m[Kneighbor.x < grid.size()[m[K && neighbor.y >= 0 && neighbor.y < grid[0].size() && grid[neighbor.x][neighbor.y] != 1)
+      |                                [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:178:90:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  178 | if (neighbor.x >= 0 && neighbor.x < grid.size() && neighbor.y >= 0 && [01;35m[Kneighbor.y < grid[0].size()[m[K && grid[neighbor.x][neighbor.y] != 1)
+      |                                                                       [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kvoid plotPoint(std::vector<std::vector<int> >&, const Point&)[m[K’:
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:204:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  204 |     if (x >= 0 && [01;35m[Kx < map[0].size()[m[K && y >= 0 && y < map.size())
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:204:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  204 |     if (x >= 0 && x < map[0].size() && y >= 0 && [01;35m[Ky < map.size()[m[K)
+      |                                                  [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<int> > predictivePotentialFieldPlanner(std::vector<std::vector<int> >&, Point, Point, int, float, int)[m[K’:
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:274:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  274 |     for(int i=0;[01;35m[Ki<smoothed_path.size()[m[K;i++){
+      |                 [01;35m[K~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:245:144:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresolution[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  245 | std::vector<std::vector<int>> &grid, Point start, Point goal, int max_iter,[01;35m[Kfloat resolution[m[K,int smoothPasses)
+      |                                                                            [01;35m[K~~~~~~^~~~~~~~~~[m[K
+
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:[m[K In member function ‘[01m[Kvoid PPFNode::targetCallback(visualization_msgs::msg::Marker_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:93:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   93 |         double [01;35m[Kqz[m[K = marker->pose.orientation.z;
+      |                [01;35m[K^~[m[K
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:94:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   94 |         double [01;35m[Kqw[m[K = marker->pose.orientation.w;
+      |                [01;35m[K^~[m[K
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:[m[K In member function ‘[01m[Kvoid PPFNode::occupancyGridCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:136:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpFlag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  136 |         int [01;35m[KpFlag[m[K=0;
+      |             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10[m[K:
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<int> > smoothPath(const std::vector<std::vector<int> >&, std::vector<std::vector<int> >&)[m[K’:
+[01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:153:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  153 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

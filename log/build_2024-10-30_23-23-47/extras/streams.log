@@ -1,0 +1,42 @@
+[0.998s] Invoking command in '/home/sedrica/ros2ppf_26_10/src/extras': PYTHONPATH=/home/sedrica/ros2ppf_26_10/build/extras/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/extras build --build-base /home/sedrica/ros2ppf_26_10/build/extras/build install --record /home/sedrica/ros2ppf_26_10/build/extras/install.log --install-scripts $base/lib/extras --single-version-externally-managed install_data
+[1.158s] /home/sedrica/.local/lib/python3.8/site-packages/setuptools/dist.py:491: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.158s] !!
+[1.158s] 
+[1.158s]         ********************************************************************************
+[1.158s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.158s]         versions. Please use the underscore name 'script_dir' instead.
+[1.159s] 
+[1.159s]         By 2025-Mar-03, you need to update your project and remove deprecated calls
+[1.159s]         or your builds will no longer be supported.
+[1.159s] 
+[1.159s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.159s]         ********************************************************************************
+[1.160s] 
+[1.160s] !!
+[1.160s]   opt = self.warn_dash_deprecation(opt, section)
+[1.180s] /home/sedrica/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.181s]   warnings.warn(msg)
+[1.315s] running egg_info
+[1.337s] writing ../../build/extras/extras.egg-info/PKG-INFO
+[1.337s] writing dependency_links to ../../build/extras/extras.egg-info/dependency_links.txt
+[1.337s] writing entry points to ../../build/extras/extras.egg-info/entry_points.txt
+[1.337s] writing requirements to ../../build/extras/extras.egg-info/requires.txt
+[1.338s] writing top-level names to ../../build/extras/extras.egg-info/top_level.txt
+[1.475s] reading manifest file '../../build/extras/extras.egg-info/SOURCES.txt'
+[1.476s] writing manifest file '../../build/extras/extras.egg-info/SOURCES.txt'
+[1.477s] running build
+[1.477s] running build_py
+[1.477s] copying extras/direction.py -> /home/sedrica/ros2ppf_26_10/build/extras/build/lib/extras
+[1.477s] copying extras/frametf.py -> /home/sedrica/ros2ppf_26_10/build/extras/build/lib/extras
+[1.477s] running install
+[1.482s] running install_lib
+[1.506s] running install_data
+[1.506s] running install_egg_info
+[1.528s] removing '/home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages/extras-0.0.0-py3.8.egg-info' (and everything under it)
+[1.528s] Copying ../../build/extras/extras.egg-info to /home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages/extras-0.0.0-py3.8.egg-info
+[1.528s] running install_scripts
+[1.580s] Installing convertor script to /home/sedrica/ros2ppf_26_10/install/extras/lib/extras
+[1.580s] Installing direction script to /home/sedrica/ros2ppf_26_10/install/extras/lib/extras
+[1.580s] Installing frametf script to /home/sedrica/ros2ppf_26_10/install/extras/lib/extras
+[1.580s] writing list of installed files to '/home/sedrica/ros2ppf_26_10/build/extras/install.log'
+[1.605s] Invoked command in '/home/sedrica/ros2ppf_26_10/src/extras' returned '0': PYTHONPATH=/home/sedrica/ros2ppf_26_10/build/extras/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/extras build --build-base /home/sedrica/ros2ppf_26_10/build/extras/build install --record /home/sedrica/ros2ppf_26_10/build/extras/install.log --install-scripts $base/lib/extras --single-version-externally-managed install_data

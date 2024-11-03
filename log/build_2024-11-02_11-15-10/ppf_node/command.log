@@ -1,0 +1,4 @@
+Invoking command in '/home/sedrica/ros2ppf_26_10/build/ppf_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/ppf_node -- -j20 -l20
+Invoked command in '/home/sedrica/ros2ppf_26_10/build/ppf_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/ppf_node -- -j20 -l20
+Invoking command in '/home/sedrica/ros2ppf_26_10/build/ppf_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/ppf_node
+Invoked command in '/home/sedrica/ros2ppf_26_10/build/ppf_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/ppf_node

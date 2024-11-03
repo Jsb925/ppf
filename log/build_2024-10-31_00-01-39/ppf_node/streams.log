@@ -1,0 +1,78 @@
+[0.020s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/ppf_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/ppf_node -- -j20 -l20
+[0.123s] [35m[1mScanning dependencies of target ppf_node[0m
+[0.180s] [ 50%] [32mBuilding CXX object CMakeFiles/ppf_node.dir/src/ppfnode.cpp.o[0m
+[1.528s] In file included from [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10[m[K:
+[1.529s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kdouble calculateRepulsivePotential(const Point&, const std::vector<std::vector<int> >&)[m[K’:
+[1.529s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:52:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.529s]    52 |     for (int i = 0; [01;35m[Ki < grid.size()[m[K; ++i)
+[1.529s]       |                     [01;35m[K~~^~~~~~~~~~~~~[m[K
+[1.530s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:54:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.530s]    54 |         for (int j = 0; [01;35m[Kj < grid[0].size()[m[K; ++j)
+[1.530s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.534s] In file included from [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10[m[K:
+[1.535s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<int> > smoothPath(const std::vector<std::vector<int> >&, std::vector<std::vector<int> >&)[m[K’:
+[1.535s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:144:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.535s]   144 |     for(int i=0; [01;35m[Ki<smoothedPath.size()[m[K;i++){
+[1.536s]       |                  [01;35m[K~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.538s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[KPoint getNextStep(const Point&, const Point&, std::vector<std::vector<int> >&)[m[K’:
+[1.539s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:177:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.539s]   177 |         if (neighbor.x >= 0 && [01;35m[Kneighbor.x < grid.size()[m[K && neighbor.y >= 0 && neighbor.y < grid[0].size() && grid[neighbor.x][neighbor.y] != 1)
+[1.539s]       |                                [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.540s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:177:90:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.540s]   177 | if (neighbor.x >= 0 && neighbor.x < grid.size() && neighbor.y >= 0 && [01;35m[Kneighbor.y < grid[0].size()[m[K && grid[neighbor.x][neighbor.y] != 1)
+[1.540s]       |                                                                       [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.540s] 
+[1.541s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kvoid plotPoint(std::vector<std::vector<int> >&, const Point&)[m[K’:
+[1.541s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:203:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.541s]   203 |     if (x >= 0 && [01;35m[Kx < map[0].size()[m[K && y >= 0 && y < map.size())
+[1.541s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[1.542s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:203:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.542s]   203 |     if (x >= 0 && x < map[0].size() && y >= 0 && [01;35m[Ky < map.size()[m[K)
+[1.542s]       |                                                  [01;35m[K~~^~~~~~~~~~~~[m[K
+[1.542s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<int> > predictivePotentialFieldPlanner(std::vector<std::vector<int> >&, Point, Point, int, float, int)[m[K’:
+[1.542s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:273:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.542s]   273 |     for(int i=0;[01;35m[Ki<smoothed_path.size()[m[K;i++){
+[1.542s]       |                 [01;35m[K~^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.543s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:244:144:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresolution[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.543s]   244 | std::vector<std::vector<int>> &grid, Point start, Point goal, int max_iter,[01;35m[Kfloat resolution[m[K,int smoothPasses)
+[1.543s]       |                                                                            [01;35m[K~~~~~~^~~~~~~~~~[m[K
+[1.543s] 
+[1.594s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:[m[K In member function ‘[01m[Kvoid PPFNode::targetCallback(visualization_msgs::msg::Marker_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.594s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:93:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.595s]    93 |         double [01;35m[Kqz[m[K = marker->pose.orientation.z;
+[1.595s]       |                [01;35m[K^~[m[K
+[1.595s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:94:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.595s]    94 |         double [01;35m[Kqw[m[K = marker->pose.orientation.w;
+[1.595s]       |                [01;35m[K^~[m[K
+[1.607s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:[m[K In member function ‘[01m[Kvoid PPFNode::occupancyGridCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.607s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:136:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpFlag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.608s]   136 |         int [01;35m[KpFlag[m[K=0;
+[1.608s]       |             [01;35m[K^~~~~[m[K
+[3.547s] In file included from [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10[m[K:
+[3.547s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<int> > smoothPath(const std::vector<std::vector<int> >&, std::vector<std::vector<int> >&)[m[K’:
+[3.548s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:152:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[3.548s]   152 | [01;35m[K}[m[K
+[3.548s]       | [01;35m[K^[m[K
+[7.540s] [100%] [32m[1mLinking CXX executable ppf_node[0m
+[7.974s] [100%] Built target ppf_node
+[8.000s] Invoked command in '/home/sedrica/ros2ppf_26_10/build/ppf_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/ppf_node -- -j20 -l20
+[8.090s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/ppf_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/ppf_node
+[8.109s] -- Install configuration: ""
+[8.109s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/lib/ppf_node/ppf_node
+[8.114s] -- Set runtime path of "/home/sedrica/ros2ppf_26_10/install/ppf_node/lib/ppf_node/ppf_node" to ""
+[8.114s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/package_run_dependencies/ppf_node
+[8.115s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/parent_prefix_path/ppf_node
+[8.115s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/ament_prefix_path.sh
+[8.115s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/ament_prefix_path.dsv
+[8.115s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/path.sh
+[8.116s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/path.dsv
+[8.116s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.bash
+[8.116s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.sh
+[8.116s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.zsh
+[8.116s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.dsv
+[8.116s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.dsv
+[8.116s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/packages/ppf_node
+[8.117s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/cmake/ppf_nodeConfig.cmake
+[8.117s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/cmake/ppf_nodeConfig-version.cmake
+[8.117s] -- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.xml
+[8.119s] Invoked command in '/home/sedrica/ros2ppf_26_10/build/ppf_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/ppf_node

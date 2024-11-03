@@ -1,0 +1,1 @@
+[0.328s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/ppf_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/ppf_node -- -j20 -l20

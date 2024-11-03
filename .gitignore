@@ -1,0 +1,4 @@
+# Ignore build, logs, and install folders
+/build/
+/logs/
+/install/

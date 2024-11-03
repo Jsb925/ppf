@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (-) JobUnselected: {'identifier': 'extras'}
+[0.000607] (-) JobUnselected: {'identifier': 'odom_publisher_pkg'}
+[0.000906] (ppf_node) JobQueued: {'identifier': 'ppf_node', 'dependencies': OrderedDict()}
+[0.000983] (ppf_node) JobStarted: {'identifier': 'ppf_node'}
+[0.016328] (ppf_node) JobProgress: {'identifier': 'ppf_node', 'progress': 'cmake'}
+[0.018182] (ppf_node) JobProgress: {'identifier': 'ppf_node', 'progress': 'build'}
+[0.019763] (ppf_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sedrica/ros2ppf_26_10/build/ppf_node', '--', '-j20', '-l20'], 'cwd': '/home/sedrica/ros2ppf_26_10/build/ppf_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sedrica'), ('SSH_AGENT_PID', '2028'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sedrica'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sedrica'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1899'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6716'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sedrica/ros2ppf_26_10/install:/home/sedrica/ros2ppf/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sedrica'), ('JOURNAL_STREAM', '8:60564'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sedrica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sedrica/miniconda3/condabin:/opt/ros/foxy/bin:/home/sedrica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sedrica-System-Product-Name:@/tmp/.ICE-unix/2063,unix/sedrica-System-Product-Name:/tmp/.ICE-unix/2063'), ('INVOCATION_ID', 'a271d9aaec1b42dbb4936ea6a6ec39e7'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sedrica/ros2ppf_26_10/install/ppf_node:/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/ppf_node:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/sedrica/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d1f509cf-ad45-4698-83c8-4a8059adfbf5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sedrica/ros2ppf_26_10/build/ppf_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sedrica/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages:/home/sedrica/ros2ppf/install/extras/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sedrica/ros2ppf_26_10/install/ppf_node:/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg:/home/sedrica/ros2ppf/install/ppf_node:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy')]), 'shell': False}
+[0.099898] (-) TimerEvent: {}
+[0.118097] (ppf_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ppf_node\x1b[0m\n'}
+[0.162172] (ppf_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ppf_node.dir/src/ppfnode.cpp.o\x1b[0m\n'}
+[0.199907] (-) TimerEvent: {}
+[0.300194] (-) TimerEvent: {}
+[0.400563] (-) TimerEvent: {}
+[0.500886] (-) TimerEvent: {}
+[0.601332] (-) TimerEvent: {}
+[0.701710] (-) TimerEvent: {}
+[0.802216] (-) TimerEvent: {}
+[0.902824] (-) TimerEvent: {}
+[1.003296] (-) TimerEvent: {}
+[1.103806] (-) TimerEvent: {}
+[1.204266] (-) TimerEvent: {}
+[1.304536] (-) TimerEvent: {}
+[1.404904] (-) TimerEvent: {}
+[1.505369] (-) TimerEvent: {}
+[1.558560] (ppf_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10\x1b[m\x1b[K:\n'}
+[1.558980] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdouble calculateRepulsivePotential(const Point&, const std::vector<std::vector<int> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.559181] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:52:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<int> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.559360] (ppf_node) StderrLine: {'line': b'   52 |     for (int i = 0; \x1b[01;35m\x1b[Ki < grid.size()\x1b[m\x1b[K; ++i)\n'}
+[1.559513] (ppf_node) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.560318] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:54:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.560486] (ppf_node) StderrLine: {'line': b'   54 |         for (int j = 0; \x1b[01;35m\x1b[Kj < grid[0].size()\x1b[m\x1b[K; ++j)\n'}
+[1.560650] (ppf_node) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.563123] (ppf_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10\x1b[m\x1b[K:\n'}
+[1.563414] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<int> > smoothPath(const std::vector<std::vector<int> >&, std::vector<std::vector<int> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.563631] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:143:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<int> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.563807] (ppf_node) StderrLine: {'line': b'  143 |     for(int i=0; \x1b[01;35m\x1b[Ki<smoothedPath.size()\x1b[m\x1b[K;i++){\n'}
+[1.563960] (ppf_node) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.566657] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPoint getNextStep(const Point&, const Point&, std::vector<std::vector<int> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.566965] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:176:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<int> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.567358] (ppf_node) StderrLine: {'line': b'  176 |         if (neighbor.x >= 0 && \x1b[01;35m\x1b[Kneighbor.x < grid.size()\x1b[m\x1b[K && neighbor.y >= 0 && neighbor.y < grid[0].size() && grid[neighbor.x][neighbor.y] != 1)\n'}
+[1.567531] (ppf_node) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.567686] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:176:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.567843] (ppf_node) StderrLine: {'line': b'  176 | if (neighbor.x >= 0 && neighbor.x < grid.size() && neighbor.y >= 0 && \x1b[01;35m\x1b[Kneighbor.y < grid[0].size()\x1b[m\x1b[K && grid[neighbor.x][neighbor.y] != 1)\n'}
+[1.567990] (ppf_node) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.568133] (ppf_node) StderrLine: {'line': b'\n'}
+[1.568274] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid plotPoint(std::vector<std::vector<int> >&, const Point&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.568437] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:202:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.568597] (ppf_node) StderrLine: {'line': b'  202 |     if (x >= 0 && \x1b[01;35m\x1b[Kx < map[0].size()\x1b[m\x1b[K && y >= 0 && y < map.size())\n'}
+[1.568741] (ppf_node) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.568883] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:202:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<int> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.569067] (ppf_node) StderrLine: {'line': b'  202 |     if (x >= 0 && x < map[0].size() && y >= 0 && \x1b[01;35m\x1b[Ky < map.size()\x1b[m\x1b[K)\n'}
+[1.569243] (ppf_node) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.569642] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<int> > predictivePotentialFieldPlanner(std::vector<std::vector<int> >&, Point, Point, int, float, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.569803] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:272:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<int> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.569966] (ppf_node) StderrLine: {'line': b'  272 |     for(int i=0;\x1b[01;35m\x1b[Ki<smoothed_path.size()\x1b[m\x1b[K;i++){\n'}
+[1.570198] (ppf_node) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.570345] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:243:144:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresolution\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.570495] (ppf_node) StderrLine: {'line': b'  243 | std::vector<std::vector<int>> &grid, Point start, Point goal, int max_iter,\x1b[01;35m\x1b[Kfloat resolution\x1b[m\x1b[K,int smoothPasses)\n'}
+[1.570641] (ppf_node) StderrLine: {'line': b'      |                                                                            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.570783] (ppf_node) StderrLine: {'line': b'\n'}
+[1.605487] (-) TimerEvent: {}
+[1.621223] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PPFNode::targetCallback(visualization_msgs::msg::Marker_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.621462] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:93:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kqz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.621546] (ppf_node) StderrLine: {'line': b'   93 |         double \x1b[01;35m\x1b[Kqz\x1b[m\x1b[K = marker->pose.orientation.z;\n'}
+[1.621630] (ppf_node) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.621708] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:94:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kqw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.621791] (ppf_node) StderrLine: {'line': b'   94 |         double \x1b[01;35m\x1b[Kqw\x1b[m\x1b[K = marker->pose.orientation.w;\n'}
+[1.621866] (ppf_node) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.634361] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PPFNode::occupancyGridCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.634574] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:136:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KpFlag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.634671] (ppf_node) StderrLine: {'line': b'  136 |         int \x1b[01;35m\x1b[KpFlag\x1b[m\x1b[K=0;\n'}
+[1.634739] (ppf_node) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.705611] (-) TimerEvent: {}
+[1.806052] (-) TimerEvent: {}
+[1.906420] (-) TimerEvent: {}
+[2.006833] (-) TimerEvent: {}
+[2.107215] (-) TimerEvent: {}
+[2.207585] (-) TimerEvent: {}
+[2.308024] (-) TimerEvent: {}
+[2.408445] (-) TimerEvent: {}
+[2.508899] (-) TimerEvent: {}
+[2.609357] (-) TimerEvent: {}
+[2.709906] (-) TimerEvent: {}
+[2.810390] (-) TimerEvent: {}
+[2.910821] (-) TimerEvent: {}
+[3.011323] (-) TimerEvent: {}
+[3.111818] (-) TimerEvent: {}
+[3.212305] (-) TimerEvent: {}
+[3.312715] (-) TimerEvent: {}
+[3.413163] (-) TimerEvent: {}
+[3.513573] (-) TimerEvent: {}
+[3.613976] (-) TimerEvent: {}
+[3.631988] (ppf_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10\x1b[m\x1b[K:\n'}
+[3.632426] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<int> > smoothPath(const std::vector<std::vector<int> >&, std::vector<std::vector<int> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.632718] (ppf_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:151:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[3.633021] (ppf_node) StderrLine: {'line': b'  151 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[3.633336] (ppf_node) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.714103] (-) TimerEvent: {}
+[3.814540] (-) TimerEvent: {}
+[3.915013] (-) TimerEvent: {}
+[4.015474] (-) TimerEvent: {}
+[4.115944] (-) TimerEvent: {}
+[4.216418] (-) TimerEvent: {}
+[4.316993] (-) TimerEvent: {}
+[4.417523] (-) TimerEvent: {}
+[4.517965] (-) TimerEvent: {}
+[4.618343] (-) TimerEvent: {}
+[4.718643] (-) TimerEvent: {}
+[4.818965] (-) TimerEvent: {}
+[4.919322] (-) TimerEvent: {}
+[5.019838] (-) TimerEvent: {}
+[5.120181] (-) TimerEvent: {}
+[5.220519] (-) TimerEvent: {}
+[5.320839] (-) TimerEvent: {}
+[5.421173] (-) TimerEvent: {}
+[5.521646] (-) TimerEvent: {}
+[5.622110] (-) TimerEvent: {}
+[5.722637] (-) TimerEvent: {}
+[5.823069] (-) TimerEvent: {}
+[5.923549] (-) TimerEvent: {}
+[6.023959] (-) TimerEvent: {}
+[6.124479] (-) TimerEvent: {}
+[6.225016] (-) TimerEvent: {}
+[6.325518] (-) TimerEvent: {}
+[6.425945] (-) TimerEvent: {}
+[6.526348] (-) TimerEvent: {}
+[6.626759] (-) TimerEvent: {}
+[6.727196] (-) TimerEvent: {}
+[6.827699] (-) TimerEvent: {}
+[6.928210] (-) TimerEvent: {}
+[7.028585] (-) TimerEvent: {}
+[7.128895] (-) TimerEvent: {}
+[7.229236] (-) TimerEvent: {}
+[7.329800] (-) TimerEvent: {}
+[7.430342] (-) TimerEvent: {}
+[7.530803] (-) TimerEvent: {}
+[7.631355] (-) TimerEvent: {}
+[7.731895] (-) TimerEvent: {}
+[7.766707] (ppf_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ppf_node\x1b[0m\n'}
+[7.832076] (-) TimerEvent: {}
+[7.932518] (-) TimerEvent: {}
+[8.033035] (-) TimerEvent: {}
+[8.133524] (-) TimerEvent: {}
+[8.220129] (ppf_node) StdoutLine: {'line': b'[100%] Built target ppf_node\n'}
+[8.233649] (-) TimerEvent: {}
+[8.246556] (ppf_node) CommandEnded: {'returncode': 0}
+[8.310870] (ppf_node) JobProgress: {'identifier': 'ppf_node', 'progress': 'install'}
+[8.325476] (ppf_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sedrica/ros2ppf_26_10/build/ppf_node'], 'cwd': '/home/sedrica/ros2ppf_26_10/build/ppf_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sedrica'), ('SSH_AGENT_PID', '2028'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sedrica'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sedrica'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1899'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6716'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sedrica/ros2ppf_26_10/install:/home/sedrica/ros2ppf/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sedrica'), ('JOURNAL_STREAM', '8:60564'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sedrica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sedrica/miniconda3/condabin:/opt/ros/foxy/bin:/home/sedrica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sedrica-System-Product-Name:@/tmp/.ICE-unix/2063,unix/sedrica-System-Product-Name:/tmp/.ICE-unix/2063'), ('INVOCATION_ID', 'a271d9aaec1b42dbb4936ea6a6ec39e7'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sedrica/ros2ppf_26_10/install/ppf_node:/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/ppf_node:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/sedrica/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d1f509cf-ad45-4698-83c8-4a8059adfbf5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sedrica/ros2ppf_26_10/build/ppf_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sedrica/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages:/home/sedrica/ros2ppf/install/extras/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sedrica/ros2ppf_26_10/install/ppf_node:/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg:/home/sedrica/ros2ppf/install/ppf_node:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy')]), 'shell': False}
+[8.333787] (-) TimerEvent: {}
+[8.341580] (ppf_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.342123] (ppf_node) StdoutLine: {'line': b'-- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/lib/ppf_node/ppf_node\n'}
+[8.345442] (ppf_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sedrica/ros2ppf_26_10/install/ppf_node/lib/ppf_node/ppf_node" to ""\n'}
+[8.345810] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/package_run_dependencies/ppf_node\n'}
+[8.345991] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/parent_prefix_path/ppf_node\n'}
+[8.346084] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/ament_prefix_path.sh\n'}
+[8.346174] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/ament_prefix_path.dsv\n'}
+[8.346374] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/path.sh\n'}
+[8.346544] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/path.dsv\n'}
+[8.346671] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.bash\n'}
+[8.346800] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.sh\n'}
+[8.346894] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.zsh\n'}
+[8.347010] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.dsv\n'}
+[8.347136] (ppf_node) StdoutLine: {'line': b'-- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.dsv\n'}
+[8.347260] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/packages/ppf_node\n'}
+[8.347338] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/cmake/ppf_nodeConfig.cmake\n'}
+[8.347464] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/cmake/ppf_nodeConfig-version.cmake\n'}
+[8.347596] (ppf_node) StdoutLine: {'line': b'-- Up-to-date: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.xml\n'}
+[8.349229] (ppf_node) CommandEnded: {'returncode': 0}
+[8.429274] (ppf_node) JobEnded: {'identifier': 'ppf_node', 'rc': 0}
+[8.431568] (-) EventReactorShutdown: {}

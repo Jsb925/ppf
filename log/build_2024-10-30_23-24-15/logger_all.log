@@ -1,0 +1,250 @@
+[0.243s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.244s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb72c6a4e20>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=20, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb72c6a4e20>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb72c6b54f0>)[0m
+[0.279s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.279s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.279s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.279s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.279s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.279s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.279s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/sedrica/ros2ppf_26_10'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extension 'ignore'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extension 'ignore_ament_install'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extensions ['colcon_pkg']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extension 'colcon_pkg'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extensions ['colcon_meta']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extension 'colcon_meta'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extensions ['ros']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extension 'ros'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extensions ['cmake', 'python']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extension 'cmake'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extension 'python'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extensions ['python_setup_py']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(johan_bag_hai) by extension 'python_setup_py'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/extras) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/extras) by extension 'ignore'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/extras) by extension 'ignore_ament_install'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/extras) by extensions ['colcon_pkg']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/extras) by extension 'colcon_pkg'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/extras) by extensions ['colcon_meta']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/extras) by extension 'colcon_meta'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/extras) by extensions ['ros']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/extras) by extension 'ros'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/extras' with type 'ros.ament_python' and name 'extras'[0m
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odom_publisher_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odom_publisher_pkg) by extension 'ignore'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odom_publisher_pkg) by extension 'ignore_ament_install'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odom_publisher_pkg) by extensions ['colcon_pkg']
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odom_publisher_pkg) by extension 'colcon_pkg'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odom_publisher_pkg) by extensions ['colcon_meta']
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odom_publisher_pkg) by extension 'colcon_meta'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odom_publisher_pkg) by extensions ['ros']
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odom_publisher_pkg) by extension 'ros'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/odom_publisher_pkg' with type 'ros.ament_cmake' and name 'odom_publisher_pkg'[0m
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ppf) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ppf) by extension 'ignore'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ppf) by extension 'ignore_ament_install'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ppf) by extensions ['colcon_pkg']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ppf) by extension 'colcon_pkg'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ppf) by extensions ['colcon_meta']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ppf) by extension 'colcon_meta'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ppf) by extensions ['ros']
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ppf) by extension 'ros'
+[0.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ppf' with type 'ros.ament_cmake' and name 'ppf_node'[0m
+[0.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.309s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.309s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.311s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/sedrica/ros2ppf_26_10/install[0m
+[0.311s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/sedrica/ros2ppf/install[0m
+[0.312s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 265 installed packages in /opt/ros/foxy[0m
+[0.314s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.354s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'extras' build argument 'cmake_args' from command line to 'None'
+[0.354s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'extras' build argument 'cmake_target' from command line to 'None'
+[0.354s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'extras' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'extras' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'extras' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'extras' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'extras' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'extras' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'extras' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'extras' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sedrica/ros2ppf_26_10/build/extras', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sedrica/ros2ppf_26_10/install/extras', 'merge_install': False, 'path': '/home/sedrica/ros2ppf_26_10/src/extras', 'symlink_install': False, 'test_result_base': None}[0m
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odom_publisher_pkg' build argument 'cmake_args' from command line to 'None'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odom_publisher_pkg' build argument 'cmake_target' from command line to 'None'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odom_publisher_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odom_publisher_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odom_publisher_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odom_publisher_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odom_publisher_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odom_publisher_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odom_publisher_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'odom_publisher_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg', 'merge_install': False, 'path': '/home/sedrica/ros2ppf_26_10/src/odom_publisher_pkg', 'symlink_install': False, 'test_result_base': None}[0m
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ppf_node' build argument 'cmake_args' from command line to 'None'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ppf_node' build argument 'cmake_target' from command line to 'None'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ppf_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ppf_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ppf_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ppf_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ppf_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ppf_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ppf_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ppf_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sedrica/ros2ppf_26_10/build/ppf_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sedrica/ros2ppf_26_10/install/ppf_node', 'merge_install': False, 'path': '/home/sedrica/ros2ppf_26_10/src/ppf', 'symlink_install': False, 'test_result_base': None}[0m
+[0.356s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.356s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.357s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/sedrica/ros2ppf_26_10/src/extras' with build type 'ament_python'
+[0.357s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('extras', 'ament_prefix_path')
+[0.359s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.359s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sedrica/ros2ppf_26_10/install/extras/share/extras/hook/ament_prefix_path.ps1'
+[0.359s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/sedrica/ros2ppf_26_10/install/extras/share/extras/hook/ament_prefix_path.dsv'
+[0.360s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sedrica/ros2ppf_26_10/install/extras/share/extras/hook/ament_prefix_path.sh'
+[0.360s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.366s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/sedrica/ros2ppf_26_10/src/odom_publisher_pkg' with build type 'ament_cmake'
+[0.366s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/sedrica/ros2ppf_26_10/src/odom_publisher_pkg'
+[0.367s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.367s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.373s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/sedrica/ros2ppf_26_10/src/ppf' with build type 'ament_cmake'
+[0.374s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/sedrica/ros2ppf_26_10/src/ppf'
+[0.374s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.374s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.622s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/sedrica/ros2ppf_26_10/src/extras'
+[0.624s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.624s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.637s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg -- -j20 -l20[0m
+[0.650s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/sedrica/ros2ppf_26_10/build/ppf_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/ppf_node -- -j20 -l20[0m
+[0.765s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg -- -j20 -l20[0m
+[0.852s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg[0m
+[0.863s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(odom_publisher_pkg)
+[0.867s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/odom_publisher_pkg[0m
+[0.868s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg' for CMake module files
+[0.869s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg' for CMake config files
+[0.869s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('odom_publisher_pkg', 'cmake_prefix_path')
+[0.869s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/hook/cmake_prefix_path.ps1'
+[0.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/hook/cmake_prefix_path.dsv'
+[0.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/hook/cmake_prefix_path.sh'
+[0.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib'
+[0.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/bin'
+[0.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib/pkgconfig/odom_publisher_pkg.pc'
+[0.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib/python3.8/site-packages'
+[0.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/bin'
+[0.872s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.ps1'
+[0.872s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.dsv'
+[0.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.sh'
+[0.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.bash'
+[0.874s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.zsh'
+[0.874s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/colcon-core/packages/odom_publisher_pkg)
+[0.938s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(odom_publisher_pkg)
+[0.939s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg' for CMake module files
+[0.940s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg' for CMake config files
+[0.941s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('odom_publisher_pkg', 'cmake_prefix_path')
+[0.942s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/hook/cmake_prefix_path.ps1'
+[0.943s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/hook/cmake_prefix_path.dsv'
+[0.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/hook/cmake_prefix_path.sh'
+[0.968s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib'
+[0.969s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/bin'
+[0.969s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib/pkgconfig/odom_publisher_pkg.pc'
+[0.969s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/lib/python3.8/site-packages'
+[0.969s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/bin'
+[0.970s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.ps1'
+[0.970s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.dsv'
+[0.971s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.sh'
+[0.971s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.bash'
+[0.972s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/odom_publisher_pkg/package.zsh'
+[0.972s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/sedrica/ros2ppf_26_10/install/odom_publisher_pkg/share/colcon-core/packages/odom_publisher_pkg)
+[1.337s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/sedrica/ros2ppf_26_10/src/extras': PYTHONPATH=/home/sedrica/ros2ppf_26_10/build/extras/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/extras build --build-base /home/sedrica/ros2ppf_26_10/build/extras/build install --record /home/sedrica/ros2ppf_26_10/build/extras/install.log --install-scripts $base/lib/extras --single-version-externally-managed install_data[0m
+[1.966s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/extras' for CMake module files
+[1.967s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/sedrica/ros2ppf_26_10/src/extras' returned '0': PYTHONPATH=/home/sedrica/ros2ppf_26_10/build/extras/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/extras build --build-base /home/sedrica/ros2ppf_26_10/build/extras/build install --record /home/sedrica/ros2ppf_26_10/build/extras/install.log --install-scripts $base/lib/extras --single-version-externally-managed install_data[0m
+[1.968s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/extras' for CMake config files
+[1.968s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/extras/lib'
+[1.968s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/extras/bin'
+[1.968s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/extras/lib/pkgconfig/extras.pc'
+[1.969s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/extras/lib/python3.8/site-packages'
+[1.969s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('extras', 'pythonpath')
+[1.969s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sedrica/ros2ppf_26_10/install/extras/share/extras/hook/pythonpath.ps1'
+[1.969s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/sedrica/ros2ppf_26_10/install/extras/share/extras/hook/pythonpath.dsv'
+[1.970s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sedrica/ros2ppf_26_10/install/extras/share/extras/hook/pythonpath.sh'
+[1.970s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/extras/bin'
+[1.970s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(extras)
+[1.971s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/extras/share/extras/package.ps1'
+[1.971s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/sedrica/ros2ppf_26_10/install/extras/share/extras/package.dsv'
+[1.972s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/extras/share/extras/package.sh'
+[1.972s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/extras/share/extras/package.bash'
+[1.972s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/extras/share/extras/package.zsh'
+[1.973s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/sedrica/ros2ppf_26_10/install/extras/share/colcon-core/packages/extras)
+[3.766s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/sedrica/ros2ppf_26_10/build/ppf_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/ppf_node -- -j20 -l20[0m
+[3.834s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ppf_node)
+[3.835s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/ppf_node' for CMake module files
+[3.836s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/ppf_node' for CMake config files
+[3.837s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ppf_node', 'cmake_prefix_path')
+[3.837s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/hook/cmake_prefix_path.ps1'
+[3.839s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/hook/cmake_prefix_path.dsv'
+[3.839s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/hook/cmake_prefix_path.sh'
+[3.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/ppf_node/lib'
+[3.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/ppf_node/bin'
+[3.841s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/ppf_node/lib/pkgconfig/ppf_node.pc'
+[3.842s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/ppf_node/lib/python3.8/site-packages'
+[3.842s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sedrica/ros2ppf_26_10/install/ppf_node/bin'
+[3.843s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.ps1'
+[3.844s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.dsv'
+[3.844s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.sh'
+[3.845s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.bash'
+[3.846s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.zsh'
+[3.846s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/sedrica/ros2ppf_26_10/install/ppf_node/share/colcon-core/packages/ppf_node)
+[3.857s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[3.858s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[3.858s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '2'[0m
+[3.858s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[3.871s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.871s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.871s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[3.902s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[3.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/sedrica/ros2ppf_26_10/install/local_setup.ps1'
+[3.905s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/sedrica/ros2ppf_26_10/install/_local_setup_util_ps1.py'
+[3.909s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/sedrica/ros2ppf_26_10/install/setup.ps1'
+[3.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/sedrica/ros2ppf_26_10/install/local_setup.sh'
+[3.913s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/sedrica/ros2ppf_26_10/install/_local_setup_util_sh.py'
+[3.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/sedrica/ros2ppf_26_10/install/setup.sh'
+[3.916s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/sedrica/ros2ppf_26_10/install/local_setup.bash'
+[3.917s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/sedrica/ros2ppf_26_10/install/setup.bash'
+[3.919s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/sedrica/ros2ppf_26_10/install/local_setup.zsh'
+[3.920s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/sedrica/ros2ppf_26_10/install/setup.zsh'

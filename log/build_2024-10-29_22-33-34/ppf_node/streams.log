@@ -1,0 +1,59 @@
+[0.268s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/ppf_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/ppf_node -- -j20 -l20
+[0.360s] [35m[1mScanning dependencies of target ppf_node[0m
+[0.407s] [ 50%] [32mBuilding CXX object CMakeFiles/ppf_node.dir/src/ppfnode.cpp.o[0m
+[1.446s] In file included from [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10[m[K:
+[1.447s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kdouble calculateRepulsivePotential(const Point&, const std::vector<std::vector<int> >&)[m[K’:
+[1.447s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:52:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.447s]    52 |     for (int i = 0; [01;35m[Ki < grid.size()[m[K; ++i)
+[1.447s]       |                     [01;35m[K~~^~~~~~~~~~~~~[m[K
+[1.448s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:54:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.448s]    54 |         for (int j = 0; [01;35m[Kj < grid[0].size()[m[K; ++j)
+[1.448s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.450s] In file included from [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10[m[K:
+[1.451s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<int> > smoothPath(const std::vector<std::vector<int> >&, std::vector<std::vector<int> >&)[m[K’:
+[1.451s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:139:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.451s]   139 |     for(int i=0; [01;35m[Ki<smoothedPath.size()[m[K;i++){
+[1.451s]       |                  [01;35m[K~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.454s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[KPoint getNextStep(const Point&, const Point&, std::vector<std::vector<int> >&)[m[K’:
+[1.454s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:169:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.454s]   169 |         if (neighbor.x >= 0 && [01;35m[Kneighbor.x < grid.size()[m[K && neighbor.y >= 0 && neighbor.y < grid[0].size() && grid[neighbor.x][neighbor.y] != 1)
+[1.454s]       |                                [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.454s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:169:90:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.454s]   169 |  if (neighbor.x >= 0 && neighbor.x < grid.size() && neighbor.y >= 0 && [01;35m[Kneighbor.y < grid[0].size()[m[K && grid[neighbor.x][neighbor.y] != 1)
+[1.455s]       |                                                                        [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.455s] 
+[1.455s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kvoid plotPoint(std::vector<std::vector<int> >&, const Point&)[m[K’:
+[1.455s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:195:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.455s]   195 |     if (x >= 0 && [01;35m[Kx < map[0].size()[m[K && y >= 0 && y < map.size())
+[1.455s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[1.456s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:195:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.456s]   195 |     if (x >= 0 && x < map[0].size() && y >= 0 && [01;35m[Ky < map.size()[m[K)
+[1.456s]       |                                                  [01;35m[K~~^~~~~~~~~~~~[m[K
+[1.456s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<int> > predictivePotentialFieldPlanner(std::vector<std::vector<int> >&, Point, Point, int, float, int, int&)[m[K’:
+[1.456s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:264:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.456s]   264 |         for(int i=0;[01;35m[Ki<smoothed_path.size()[m[K;i++){
+[1.457s]       |                     [01;35m[K~^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.457s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:236:144:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresolution[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.457s]   236 | (std::vector<std::vector<int>> &grid, Point start, Point goal, int max_iter,[01;35m[Kfloat resolution[m[K,int smoothPasses,int &pathFlag)
+[1.457s]       |                                                                             [01;35m[K~~~~~~^~~~~~~~~~[m[K
+[1.457s] 
+[1.497s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:[m[K In member function ‘[01m[Kvoid PPFNode::targetCallback(visualization_msgs::msg::Marker_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.497s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:93:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.497s]    93 |         double [01;35m[Kqz[m[K = marker->pose.orientation.z;
+[1.497s]       |                [01;35m[K^~[m[K
+[1.497s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:94:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.497s]    94 |         double [01;35m[Kqw[m[K = marker->pose.orientation.w;
+[1.498s]       |                [01;35m[K^~[m[K
+[1.499s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:[m[K In member function ‘[01m[Kvoid PPFNode::occupancyGridCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.499s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:137:134:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kstd::vector<std::vector<int> > predictivePotentialFieldPlanner(std::vector<std::vector<int> >&, Point, Point, int, float, int, int&)[m[K’
+[1.499s]   137 | tivePotentialFieldPlanner(matrix, Point(sx, sy), Point(gx, gy), 500, resolution, 1[01;31m[K)[m[K;
+[1.500s]       |                                                                                   [01;31m[K^[m[K
+[1.500s] 
+[1.500s] In file included from [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10[m[K:
+[1.500s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:236:31:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.500s]   236 | std::vector<std::vector<int>> [01;36m[KpredictivePotentialFieldPlanner[m[K(std::vector<std::vector<int>> &grid, Point start, Point goal, int max_iter,float resolution,int smoothPasses,int &pathFlag)
+[1.500s]       |                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.411s] make[2]: *** [CMakeFiles/ppf_node.dir/build.make:63: CMakeFiles/ppf_node.dir/src/ppfnode.cpp.o] Error 1
+[3.412s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/ppf_node.dir/all] Error 2
+[3.412s] make: *** [Makefile:141: all] Error 2
+[3.416s] Invoked command in '/home/sedrica/ros2ppf_26_10/build/ppf_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/ppf_node -- -j20 -l20

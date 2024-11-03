@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             'convertor = extras.convertor:main',
             'direction = extras.direction:main',
-            'frametf = extras.frametf:main'
+            'frametf = extras.frametf:main',
+            'tests = extras.tests:main'
         ],
     },
 )

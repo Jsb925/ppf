@@ -1,0 +1,114 @@
+[0.296s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/ppf_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake /home/sedrica/ros2ppf_26_10/src/ppf -DCMAKE_INSTALL_PREFIX=/home/sedrica/ros2ppf_26_10/install/ppf_node
+[0.417s] -- The C compiler identification is GNU 9.4.0
+[0.525s] -- The CXX compiler identification is GNU 9.4.0
+[0.532s] -- Check for working C compiler: /usr/bin/cc
+[0.668s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.670s] -- Detecting C compiler ABI info
+[0.799s] -- Detecting C compiler ABI info - done
+[0.812s] -- Detecting C compile features
+[0.813s] -- Detecting C compile features - done
+[0.815s] -- Check for working CXX compiler: /usr/bin/c++
+[0.974s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.977s] -- Detecting CXX compiler ABI info
+[1.107s] -- Detecting CXX compiler ABI info - done
+[1.140s] -- Detecting CXX compile features
+[1.140s] -- Detecting CXX compile features - done
+[1.144s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.190s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.191s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.432s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.479s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.655s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.703s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.853s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.855s] -- Looking for pthread.h
+[2.009s] -- Looking for pthread.h - found
+[2.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.152s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.152s] -- Looking for pthread_create in pthreads
+[2.289s] -- Looking for pthread_create in pthreads - not found
+[2.289s] -- Looking for pthread_create in pthread
+[2.451s] -- Looking for pthread_create in pthread - found
+[2.454s] -- Found Threads: TRUE  
+[2.612s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.643s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.708s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.774s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.084s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[3.152s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.232s] -- Configuring done
+[3.246s] -- Generating done
+[3.247s] -- Build files have been written to: /home/sedrica/ros2ppf_26_10/build/ppf_node
+[3.259s] Invoked command in '/home/sedrica/ros2ppf_26_10/build/ppf_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake /home/sedrica/ros2ppf_26_10/src/ppf -DCMAKE_INSTALL_PREFIX=/home/sedrica/ros2ppf_26_10/install/ppf_node
+[3.262s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/ppf_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/ppf_node -- -j20 -l20
+[3.332s] [35m[1mScanning dependencies of target ppf_node[0m
+[3.389s] [ 50%] [32mBuilding CXX object CMakeFiles/ppf_node.dir/src/ppfnode.cpp.o[0m
+[4.495s] In file included from [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10[m[K:
+[4.495s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kdouble calculateRepulsivePotential(const Point&, const std::vector<std::vector<int> >&)[m[K’:
+[4.495s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:52:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.496s]    52 |     for (int i = 0; [01;35m[Ki < grid.size()[m[K; ++i)
+[4.496s]       |                     [01;35m[K~~^~~~~~~~~~~~~[m[K
+[4.497s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:54:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.497s]    54 |         for (int j = 0; [01;35m[Kj < grid[0].size()[m[K; ++j)
+[4.497s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[4.500s] In file included from [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:10[m[K:
+[4.500s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<int> > smoothPath(const std::vector<std::vector<int> >&, std::vector<std::vector<int> >&)[m[K’:
+[4.500s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:139:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.500s]   139 |     for(int i=0; [01;35m[Ki<smoothedPath.size()[m[K;i++){
+[4.500s]       |                  [01;35m[K~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.503s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[KPoint getNextStep(const Point&, const Point&, std::vector<std::vector<int> >&)[m[K’:
+[4.503s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:169:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.503s]   169 |         if (neighbor.x >= 0 && [01;35m[Kneighbor.x < grid.size()[m[K && neighbor.y >= 0 && neighbor.y < grid[0].size() && grid[neighbor.x][neighbor.y] != 1)
+[4.504s]       |                                [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[4.504s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:169:90:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.504s]   169 | if (neighbor.x >= 0 && neighbor.x < grid.size() && neighbor.y >= 0 && [01;35m[Kneighbor.y < grid[0].size()[m[K && grid[neighbor.x][neighbor.y] != 1)
+[4.504s]       |                                                                       [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[4.504s] 
+[4.504s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kvoid plotPoint(std::vector<std::vector<int> >&, const Point&)[m[K’:
+[4.505s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:195:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.505s]   195 |     if (x >= 0 && [01;35m[Kx < map[0].size()[m[K && y >= 0 && y < map.size())
+[4.505s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[4.505s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:195:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.505s]   195 |     if (x >= 0 && x < map[0].size() && y >= 0 && [01;35m[Ky < map.size()[m[K)
+[4.506s]       |                                                  [01;35m[K~~^~~~~~~~~~~~[m[K
+[4.506s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<int> > predictivePotentialFieldPlanner(std::vector<std::vector<int> >&, Point, Point, int, float, int)[m[K’:
+[4.506s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:260:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.506s]   260 |     for(int i=0;[01;35m[Ki<smoothed_path.size()[m[K;i++){
+[4.506s]       |                 [01;35m[K~^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.506s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppf_n.cpp:236:144:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresolution[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[4.506s]   236 | std::vector<std::vector<int>> &grid, Point start, Point goal, int max_iter,[01;35m[Kfloat resolution[m[K,int smoothPasses)
+[4.507s]       |                                                                            [01;35m[K~~~~~~^~~~~~~~~~[m[K
+[4.507s] 
+[4.550s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:[m[K In member function ‘[01m[Kvoid PPFNode::targetCallback(visualization_msgs::msg::Marker_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.550s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:93:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.551s]    93 |         double [01;35m[Kqz[m[K = marker->pose.orientation.z;
+[4.551s]       |                [01;35m[K^~[m[K
+[4.551s] [01m[K/home/sedrica/ros2ppf_26_10/src/ppf/src/ppfnode.cpp:94:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.551s]    94 |         double [01;35m[Kqw[m[K = marker->pose.orientation.w;
+[4.551s]       |                [01;35m[K^~[m[K
+[9.691s] [100%] [32m[1mLinking CXX executable ppf_node[0m
+[10.089s] [100%] Built target ppf_node
+[10.115s] Invoked command in '/home/sedrica/ros2ppf_26_10/build/ppf_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --build /home/sedrica/ros2ppf_26_10/build/ppf_node -- -j20 -l20
+[10.206s] Invoking command in '/home/sedrica/ros2ppf_26_10/build/ppf_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/ppf_node
+[10.224s] -- Install configuration: ""
+[10.225s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/lib/ppf_node/ppf_node
+[10.230s] -- Set runtime path of "/home/sedrica/ros2ppf_26_10/install/ppf_node/lib/ppf_node/ppf_node" to ""
+[10.230s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/package_run_dependencies/ppf_node
+[10.230s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/parent_prefix_path/ppf_node
+[10.230s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/ament_prefix_path.sh
+[10.230s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/ament_prefix_path.dsv
+[10.230s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/path.sh
+[10.230s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/environment/path.dsv
+[10.231s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.bash
+[10.231s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.sh
+[10.231s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.zsh
+[10.231s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/local_setup.dsv
+[10.231s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.dsv
+[10.231s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ament_index/resource_index/packages/ppf_node
+[10.232s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/cmake/ppf_nodeConfig.cmake
+[10.232s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/cmake/ppf_nodeConfig-version.cmake
+[10.232s] -- Installing: /home/sedrica/ros2ppf_26_10/install/ppf_node/share/ppf_node/package.xml
+[10.235s] Invoked command in '/home/sedrica/ros2ppf_26_10/build/ppf_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sedrica/ros2ppf_26_10/install/extras:/home/sedrica/ros2ppf/install/extras:/opt/ros/foxy /usr/bin/cmake --install /home/sedrica/ros2ppf_26_10/build/ppf_node
