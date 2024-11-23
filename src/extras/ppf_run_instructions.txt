@@ -1,0 +1,5 @@
+run Autodrive sim, run simulator bringup from docker ki
+for ppf-
+	run extras.convertor.py extras.direction.py odom_publisher_pkg.odom ppf_planner.ppf_node
+for cutter-
+	run odom, extras.cutter.py
